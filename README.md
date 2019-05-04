@@ -11,6 +11,10 @@ Clone the repository and install dependencies
 > yarn install
 ```
 
+### Get the environment variables
+
+Create a `.env` file at the project root and add the necessary credentials.
+
 ### Setup Ngrok
 
 Since we'll be dealing primarily with webhooks, we need a way to expose localhost to the internet. For this, we will use [Ngrok](https://ngrok.com/).
@@ -23,7 +27,11 @@ Since we'll be dealing primarily with webhooks, we need a way to expose localhos
 ./ngrok authtoken <YOUR_AUTH_TOKEN>
 ```
 
-> If needed, ask a fellow contributor for the Auth Key
+### Setup MondoDB
+
+```sh
+brew install mongodb
+```
 
 ### Serving 
 Serve the dev environment with yarn
