@@ -1,0 +1,17 @@
+{
+  "name": "insta-comment-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chanonroy/insta-comment-manager.git",
+  "author": "Chanon Roy <chanonroy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
